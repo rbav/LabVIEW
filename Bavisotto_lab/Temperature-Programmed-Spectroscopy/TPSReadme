@@ -1,1 +1,15 @@
+# This foulder holds some of the early versions of the TPS LabVIEW programs.
+# CurrentVsTime.vi is a program that controls the temperature of a sample as a function of time.
+  # It works by having the LabVIEW NI card output a voltage which controls a Kepco powersupply's heating current.
+  # The input thermocouple voltage passes through a x100 multiplier before letting the LabVIEW read the current temperature.
+  # The PID inputs allow for optimization of the heating rate, control functions, and/or target temperature
 
+# MultiscanXPS is a labVIEW program that uses a NI USB-6001 card to control XPS hardware from phi electronics. 
+  # additional details in disertation
+  # Allows for multiple binding energy ranges, dVs, and signal averaging methods to be utilized.
+    # See TPS rolling averages SOP manual for additional details
+
+# TempRamp is described in Molecular_electronics folder. Read the readme there.
+
+# Untitled 3 (SubVI).vi is the sub VI labVIEW program that allows the above programs to funciton properly.
+  # Place this program on the desktop and designate a pathway during inital setup
