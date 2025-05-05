@@ -1,0 +1,18 @@
+# Moletronics LabVIEW programs (VI)
+# CurrentVsTime.vi is for recording the current of a nanogap/BM gap array during a process.
+  # This program allows for any changes in current to be observed as a function of time and correlated with the effects.
+  # Used for dosing with nanoparticles, molecular samples, or during exposure to atmosphere
+  # Also used in conjunction with RAIRS to correlate structure and conductivity
+      # ISMMCS-RAIRS: In Situ Monitoring of Molecular Conductivity and Structure with Reflection Absorption Infrared Spectroscopy. 
+          # Not yet published
+
+# Frequency.vi and Function_Generator2.vi are used to diagnose issues on the Moletronics UHV chamber support systems
+
+# IV.vi is simple current vs applied voltage. This program ramps the applied voltage accross a nanogap/BM array while recording current.
+  # Can be used to measure resistance with a plot or to probe an array for assymetric conductivity (AKA rectification behavior)
+
+# TempRamp.vi is a program used to control the heating current from a Kepco powersupply. 
+  # Can be used to heat continiously or keep at constant value.
+  # Has several PID controller inputs for optimizing control
+
+# Untitled3(SubVI).vi is the subvi used for all Tysoe group programs and needs to have a configured path for the above programs to function.
