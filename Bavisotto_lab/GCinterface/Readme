@@ -1,0 +1,7 @@
+# GC_data.vi is a modified program that simply records input voltage as a function of time
+  # The Tysoe research group had an old HP gas chromatogram that would output a voltage depending on FID singal intensity
+  # The higher the FID signal, the higher the output voltage. 
+  # This program simply reads in input voltage and records as a function of time for a preset duration.
+
+# Untitled.vi is the sub VI program that allows the above programs to operate.
+  # This program needs to be placed on the desktop with a path designated for the above programs to function properly.
